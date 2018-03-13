@@ -1,0 +1,3 @@
+FROM %%RESIN_MACHINE_NAME%%-alpine
+
+CMD while true; do echo 'test'; sleep 5; done;
